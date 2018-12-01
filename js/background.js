@@ -233,7 +233,7 @@ function setBadge(options) {
  */
 function setBadgeNoAuth() {
     setBadge({
-        'text': '?',
+        'text': '0',
         'color': '#9E9E9E',
         'title': 'Click to authorize Gmail',
     });
