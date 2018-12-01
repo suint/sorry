@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	</head>
+	<body>
+
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--popper-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!--bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <div id="body">
+      <div class="container">
+        <h1 id="logo" style="margin:0 30px 0 0;">Sorry!</h1>
+        <div class="pagination-centered" style="height:100px;"><br/><em>You'll get to it later.</em></div>
+      </div>
+      <div class="container">
+        <form>
+          <div class="form-group">
+            <label for="emails">Add addresses to ignore, separated by commas</label>
+            <input type="text" class="form-control" id="emails" placeholder="aamilne@example.com">
+          </div>
+
+          <div class="form-group">
+            <label for="keywords">Add keywords or phrases to ignore, separated by commas</label>
+            <input type="text" class="form-control" id="keywords" placeholder="assignment due, urgent">
+          </div>
+
+          <div class="form-group">
+            <label for="time">How long after receiving this email do you want to reply?</label>
+            <select class="custom-select">
+              <option selected>Ten years</option>
+              <option value="1">1 hour</option>
+              <option value="2">2 hours</option>
+              <option value="3">3 hours</option>
+              <option value="6">6 hours</option>
+              <option value="24">1 day</option>
+              <option value="48">2 days</option>
+              <option value="168">1 week</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </form>
+      </div>
+    </div>
+	</body>
+</html>

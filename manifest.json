@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Sorry!",
+  "version": "1.0",
+  "icons": {
+        "16": "img/developers-logo.png",
+        "48": "img/developers-logo.png",
+        "128": "img/developers-logo.png"
+  },
+  "permissions": [
+      "background",
+      "identity",
+      "notifications",
+      "storage",
+      "alarms",
+      "https://www.googleapis.com/*",
+      "https://*.googleusercontent.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "img/sorry.png",
+    "default_popup": "html/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "oauth2": {
+      "client_id": "405690269483-rr6sn5jnju3o69ht6i2ii5ao2nkv8v1q.apps.googleusercontent.com",
+      "scopes": [
+          "profile",
+          "https://www.googleapis.com/auth/gmail.labels",
+          "https://www.googleapis.com/auth/gmail.readonly"
+      ]
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiRXHByZZE0i3GOA/vxyoMVNWwNqgoaMB7pQqbvilXhIpVshQe/9UyqXL5PyQfKF6HM9YLXqylho6ZysefWmB+OsIwjWvw3c8CE8he12bvgRFbK4/ehWsSS1yzeWwL3XcaK9c6DWUhinW+TVc0dUr3KzKsAEIzz6BuMM7R5hgHDq1yaUwBbBRXlEKxmXZPNQmQjX+0udDCkzhhRvogrikhUwt4fU8Tq/IAqz8GLlUUNxoASWcuKMxRcBLue9UZAW7xv9KrJckyMssNlk5xF3xAseUvUaSZnKCaAkyD81paaJJFMgd/mr96e2Uo4WbtUR6RLgcX8oRHvjfpYOU2QMqewIDAQAB"
+}

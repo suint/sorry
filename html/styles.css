@@ -1,0 +1,14 @@
+#body{
+  background-color:powderblue;
+  width:500px;
+  padding:40px 20px;
+}
+#logo{
+  font-family:guthen;
+  font-size:72px;
+  float:left;
+}
+@font-face {
+    font-family: guthen;
+    src: url(guthen.ttf);
+}
